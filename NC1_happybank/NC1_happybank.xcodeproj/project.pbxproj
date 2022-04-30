@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6753E58C281D3A4D00767B8B /* NC1_happybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E58B281D3A4D00767B8B /* NC1_happybankApp.swift */; };
+		6753E58E281D3A4D00767B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E58D281D3A4D00767B8B /* ContentView.swift */; };
+		6753E590281D3A4F00767B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6753E58F281D3A4F00767B8B /* Assets.xcassets */; };
+		6753E593281D3A4F00767B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6753E592281D3A4F00767B8B /* Preview Assets.xcassets */; };
+		6753E59D281D3A4F00767B8B /* NC1_happybankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E59C281D3A4F00767B8B /* NC1_happybankTests.swift */; };
+		6753E5A7281D3A4F00767B8B /* NC1_happybankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5A6281D3A4F00767B8B /* NC1_happybankUITests.swift */; };
+		6753E5A9281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6753E599281D3A4F00767B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6753E580281D3A4D00767B8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6753E587281D3A4D00767B8B;
+			remoteInfo = NC1_happybank;
+		};
+		6753E5A3281D3A4F00767B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6753E580281D3A4D00767B8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6753E587281D3A4D00767B8B;
+			remoteInfo = NC1_happybank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6753E588281D3A4D00767B8B /* NC1_happybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1_happybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6753E58B281D3A4D00767B8B /* NC1_happybankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankApp.swift; sourceTree = "<group>"; };
+		6753E58D281D3A4D00767B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6753E58F281D3A4F00767B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6753E592281D3A4F00767B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6753E598281D3A4F00767B8B /* NC1_happybankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NC1_happybankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6753E59C281D3A4F00767B8B /* NC1_happybankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankTests.swift; sourceTree = "<group>"; };
+		6753E5A2281D3A4F00767B8B /* NC1_happybankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NC1_happybankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6753E5A6281D3A4F00767B8B /* NC1_happybankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankUITests.swift; sourceTree = "<group>"; };
+		6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6753E585281D3A4D00767B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E595281D3A4F00767B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E59F281D3A4F00767B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6753E57F281D3A4D00767B8B = {
+			isa = PBXGroup;
+			children = (
+				6753E58A281D3A4D00767B8B /* NC1_happybank */,
+				6753E59B281D3A4F00767B8B /* NC1_happybankTests */,
+				6753E5A5281D3A4F00767B8B /* NC1_happybankUITests */,
+				6753E589281D3A4D00767B8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6753E589281D3A4D00767B8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6753E588281D3A4D00767B8B /* NC1_happybank.app */,
+				6753E598281D3A4F00767B8B /* NC1_happybankTests.xctest */,
+				6753E5A2281D3A4F00767B8B /* NC1_happybankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6753E58A281D3A4D00767B8B /* NC1_happybank */ = {
+			isa = PBXGroup;
+			children = (
+				6753E58B281D3A4D00767B8B /* NC1_happybankApp.swift */,
+				6753E58D281D3A4D00767B8B /* ContentView.swift */,
+				6753E58F281D3A4F00767B8B /* Assets.xcassets */,
+				6753E591281D3A4F00767B8B /* Preview Content */,
+			);
+			path = NC1_happybank;
+			sourceTree = "<group>";
+		};
+		6753E591281D3A4F00767B8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6753E592281D3A4F00767B8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6753E59B281D3A4F00767B8B /* NC1_happybankTests */ = {
+			isa = PBXGroup;
+			children = (
+				6753E59C281D3A4F00767B8B /* NC1_happybankTests.swift */,
+			);
+			path = NC1_happybankTests;
+			sourceTree = "<group>";
+		};
+		6753E5A5281D3A4F00767B8B /* NC1_happybankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6753E5A6281D3A4F00767B8B /* NC1_happybankUITests.swift */,
+				6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */,
+			);
+			path = NC1_happybankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6753E587281D3A4D00767B8B /* NC1_happybank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6753E5AC281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybank" */;
+			buildPhases = (
+				6753E584281D3A4D00767B8B /* Sources */,
+				6753E585281D3A4D00767B8B /* Frameworks */,
+				6753E586281D3A4D00767B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NC1_happybank;
+			productName = NC1_happybank;
+			productReference = 6753E588281D3A4D00767B8B /* NC1_happybank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6753E597281D3A4F00767B8B /* NC1_happybankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6753E5AF281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybankTests" */;
+			buildPhases = (
+				6753E594281D3A4F00767B8B /* Sources */,
+				6753E595281D3A4F00767B8B /* Frameworks */,
+				6753E596281D3A4F00767B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6753E59A281D3A4F00767B8B /* PBXTargetDependency */,
+			);
+			name = NC1_happybankTests;
+			productName = NC1_happybankTests;
+			productReference = 6753E598281D3A4F00767B8B /* NC1_happybankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6753E5A1281D3A4F00767B8B /* NC1_happybankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6753E5B2281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybankUITests" */;
+			buildPhases = (
+				6753E59E281D3A4F00767B8B /* Sources */,
+				6753E59F281D3A4F00767B8B /* Frameworks */,
+				6753E5A0281D3A4F00767B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6753E5A4281D3A4F00767B8B /* PBXTargetDependency */,
+			);
+			name = NC1_happybankUITests;
+			productName = NC1_happybankUITests;
+			productReference = 6753E5A2281D3A4F00767B8B /* NC1_happybankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6753E580281D3A4D00767B8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6753E587281D3A4D00767B8B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6753E597281D3A4F00767B8B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6753E587281D3A4D00767B8B;
+					};
+					6753E5A1281D3A4F00767B8B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6753E587281D3A4D00767B8B;
+					};
+				};
+			};
+			buildConfigurationList = 6753E583281D3A4D00767B8B /* Build configuration list for PBXProject "NC1_happybank" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6753E57F281D3A4D00767B8B;
+			productRefGroup = 6753E589281D3A4D00767B8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6753E587281D3A4D00767B8B /* NC1_happybank */,
+				6753E597281D3A4F00767B8B /* NC1_happybankTests */,
+				6753E5A1281D3A4F00767B8B /* NC1_happybankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6753E586281D3A4D00767B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6753E593281D3A4F00767B8B /* Preview Assets.xcassets in Resources */,
+				6753E590281D3A4F00767B8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E596281D3A4F00767B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E5A0281D3A4F00767B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6753E584281D3A4D00767B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6753E58E281D3A4D00767B8B /* ContentView.swift in Sources */,
+				6753E58C281D3A4D00767B8B /* NC1_happybankApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E594281D3A4F00767B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6753E59D281D3A4F00767B8B /* NC1_happybankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6753E59E281D3A4F00767B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6753E5A9281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift in Sources */,
+				6753E5A7281D3A4F00767B8B /* NC1_happybankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6753E59A281D3A4F00767B8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6753E587281D3A4D00767B8B /* NC1_happybank */;
+			targetProxy = 6753E599281D3A4F00767B8B /* PBXContainerItemProxy */;
+		};
+		6753E5A4281D3A4F00767B8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6753E587281D3A4D00767B8B /* NC1_happybank */;
+			targetProxy = 6753E5A3281D3A4F00767B8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6753E5AA281D3A4F00767B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6753E5AB281D3A4F00767B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6753E5AD281D3A4F00767B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC1_happybank/Preview Content\"";
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6753E5AE281D3A4F00767B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC1_happybank/Preview Content\"";
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6753E5B0281D3A4F00767B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC1_happybank.app/NC1_happybank";
+			};
+			name = Debug;
+		};
+		6753E5B1281D3A4F00767B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC1_happybank.app/NC1_happybank";
+			};
+			name = Release;
+		};
+		6753E5B3281D3A4F00767B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NC1_happybank;
+			};
+			name = Debug;
+		};
+		6753E5B4281D3A4F00767B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47TRK2KUZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leticia.NC1-happybankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NC1_happybank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6753E583281D3A4D00767B8B /* Build configuration list for PBXProject "NC1_happybank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6753E5AA281D3A4F00767B8B /* Debug */,
+				6753E5AB281D3A4F00767B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6753E5AC281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6753E5AD281D3A4F00767B8B /* Debug */,
+				6753E5AE281D3A4F00767B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6753E5AF281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6753E5B0281D3A4F00767B8B /* Debug */,
+				6753E5B1281D3A4F00767B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6753E5B2281D3A4F00767B8B /* Build configuration list for PBXNativeTarget "NC1_happybankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6753E5B3281D3A4F00767B8B /* Debug */,
+				6753E5B4281D3A4F00767B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6753E580281D3A4D00767B8B /* Project object */;
+}
