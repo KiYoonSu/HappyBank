@@ -14,6 +14,9 @@
 		6753E59D281D3A4F00767B8B /* NC1_happybankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E59C281D3A4F00767B8B /* NC1_happybankTests.swift */; };
 		6753E5A7281D3A4F00767B8B /* NC1_happybankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5A6281D3A4F00767B8B /* NC1_happybankUITests.swift */; };
 		6753E5A9281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */; };
+		6753E5B7281D645100767B8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5B6281D645100767B8B /* HomeView.swift */; };
+		6753E5B9281D64A800767B8B /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5B8281D64A800767B8B /* WriteView.swift */; };
+		6753E5BB281D64D600767B8B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6753E5BA281D64D500767B8B /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		6753E5A2281D3A4F00767B8B /* NC1_happybankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NC1_happybankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6753E5A6281D3A4F00767B8B /* NC1_happybankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankUITests.swift; sourceTree = "<group>"; };
 		6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_happybankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6753E5B6281D645100767B8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6753E5B8281D64A800767B8B /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		6753E5BA281D64D500767B8B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		6753E58A281D3A4D00767B8B /* NC1_happybank */ = {
 			isa = PBXGroup;
 			children = (
+				6753E5B5281D643300767B8B /* Views */,
 				6753E58B281D3A4D00767B8B /* NC1_happybankApp.swift */,
 				6753E58D281D3A4D00767B8B /* ContentView.swift */,
 				6753E58F281D3A4F00767B8B /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				6753E5A8281D3A4F00767B8B /* NC1_happybankUITestsLaunchTests.swift */,
 			);
 			path = NC1_happybankUITests;
+			sourceTree = "<group>";
+		};
+		6753E5B5281D643300767B8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6753E5B6281D645100767B8B /* HomeView.swift */,
+				6753E5B8281D64A800767B8B /* WriteView.swift */,
+				6753E5BA281D64D500767B8B /* ListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6753E5B9281D64A800767B8B /* WriteView.swift in Sources */,
+				6753E5B7281D645100767B8B /* HomeView.swift in Sources */,
+				6753E5BB281D64D600767B8B /* ListView.swift in Sources */,
 				6753E58E281D3A4D00767B8B /* ContentView.swift in Sources */,
 				6753E58C281D3A4D00767B8B /* NC1_happybankApp.swift in Sources */,
 			);
