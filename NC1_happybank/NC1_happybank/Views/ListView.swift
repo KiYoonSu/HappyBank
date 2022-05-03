@@ -13,6 +13,10 @@ struct ListView: View {
    
     var body: some View {
         
+        
+        ZStack{
+                    Color(red: 52 / 255, green: 152 / 255, blue: 219 / 255).ignoresSafeArea()
+
         VStack{
             Text("내 쪽지함")
             
@@ -25,8 +29,14 @@ struct ListView: View {
                 }
             }
             
+        }.onAppear {
+            commentWrite = globalCommentWrite
         }
+        
+        }
+        
     }
+    
     
     struct ListView_Previews: PreviewProvider {
         static var previews: some View {
