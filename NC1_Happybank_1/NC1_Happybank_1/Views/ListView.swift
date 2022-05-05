@@ -36,12 +36,18 @@ struct ListView: View {
 //                            .fixedSize(horizontal: false, vertical: true)
 //                    }}
 //                }//List끝
-                List {
-                    ForEach(comments, id: \.self) {comment in VStack(alignment: .leading, spacing: 20) {
-                        Text(comment)
-                            .fixedSize(horizontal: false, vertical: true)
-                    }}
-                }//List끝
+//                List {
+//                    ForEach(comments, id: \.self) {comment in VStack(alignment: .leading, spacing: 20) {
+//                        Text(comment)
+//                            .fixedSize(horizontal: false, vertical: true)
+//                    }}
+//                }//List끝
+                
+                List{
+                    ForEach(comments, id:\.self) { comment in
+                        CardExample(list: comment)
+                    }
+                }
                 .onAppear {
                     UITableView.appearance().backgroundColor = UIColor.clear
                     UITableViewCell.appearance().backgroundColor = UIColor.clear
@@ -60,6 +66,26 @@ struct ListView: View {
     }//body끝
 }
 
+struct CardExample: View {
+    
+    var list: String
+    
+    var body: some View {
+            
+        VStack(spacing:0){
+            Text(list)
+                .bold()
+//                .lineLimit(1)
+        }
+        .padding()
+        .frame(width: 300, height: 180)
+        .background(Image("texture"))
+        .foregroundColor(.black)
+        .cornerRadius(15)
+    }
+}
+    
+    
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
 //        ListView(commentWrite: ["안녕", "하이"])
