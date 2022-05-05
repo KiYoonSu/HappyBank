@@ -11,6 +11,8 @@ struct HomeView: View {
     
     @State private var showModal = false
 //    @Binding var commentWrite : [String]
+    @State private var count = 3
+    @State private var comments = commentArray
     
     var body: some View {
         
@@ -29,11 +31,27 @@ struct HomeView: View {
                     .lineSpacing(0)
                     .offset(x: -40, y: -60)
                 
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(Color.gray)
-                    .frame(width: 250, height: 290)
-                    .offset (x: 0, y: -30)
-                    .padding()
+                if self.comments.count == 0 {
+                    Image("main_zero")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                } else if self.comments.count == 1 {
+                    Image("main_one")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                } else if self.comments.count == 2 {
+                    Image("main_two")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                } else if self.comments.count == 3 {
+                    Image("main_three")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                }
+                
+//                    .offset (x: 0, y: -30)
+//                    .padding()
+
                 
                 Button(action: {
                     self.showModal = true
@@ -59,6 +77,9 @@ struct HomeView: View {
             
             
         }//NavigationView끝
+        .onAppear {
+            comments = commentArray
+        }
         
         
         

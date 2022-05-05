@@ -10,27 +10,33 @@ import SwiftUI
 var commentArray = [String]()
 
 struct ContentView: View {
+    
+    @State private var selection = 2
+    
     var body: some View {
 
-        TabView {
+        TabView(selection: $selection) {
 
             ListView()
                 .tabItem {
 //                    Image(systemName: "list.dash")
                     Text("쪽지함")
                 }
+                .tag(1)
             
             HomeView()
                 .tabItem {
 //                    Image(systemName: "list.dash")
                     Text("메인")
                 }
+                .tag(2)
             
             TestView()
                 .tabItem {
 //                    Image(systemName: "list.dash")
                     Text("공유")
                 }
+                .tag(3)
             
 
             

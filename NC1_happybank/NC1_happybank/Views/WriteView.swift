@@ -13,7 +13,6 @@ struct WriteView: View {
     @State var commentString = ""
 //    @Binding var commentWrite: [String]
 //    @State var commentWrite = [String]()
-//    @Binding var commentWrite : [String]
     @State private var showingAlert = false
     
     var body: some View {
@@ -42,38 +41,6 @@ struct WriteView: View {
                 .padding()
             
             
-            
-//            HStack {
-//                Button(action: {
-//                    presentation.wrappedValue.dismiss()
-//                }) {
-//                    Text("취소")
-//                }
-//                .frame(width: 100, height: 40, alignment: .center)
-//                .background(RoundedRectangle(cornerRadius: 40)
-//                    .fill(Color.gray))
-//                .font(.system(size: 20))
-//                .foregroundColor(Color.white)
-//
-//                Button(action: {
-//                    commentArray.append(commentString)
-////                    commentWrite.append(commentString)
-//                    commentString = ""
-//                    print(commentArray)
-//                    //globalCommentWrite = commentWrite
-//                    presentation.wrappedValue.dismiss()
-//                }) {
-//                    Text("작성완료")
-//
-//                }
-//                .frame(width: 100, height: 40, alignment: .center)
-//                .background(RoundedRectangle(cornerRadius: 40)
-//                    .fill(Color.green))
-//                .font(.system(size: 20))
-//                .foregroundColor(Color.white)
-                
-                
-                
             HStack {
                 Button(action: {
                     self.showingAlert = true
@@ -84,7 +51,7 @@ struct WriteView: View {
                 .alert(isPresented: $showingAlert) {
                     Alert(title: Text("작성취소"), message: Text("Message"), primaryButton: .destructive(Text("나가기"), action: {
                         presentation.wrappedValue.dismiss()
-                    }), secondaryButton: .cancel())                }
+                    }), secondaryButton: .cancel(Text("취소")))                }
                 
                 .frame(width: 100, height: 40, alignment: .center)
                 .background(RoundedRectangle(cornerRadius: 40)
@@ -94,10 +61,8 @@ struct WriteView: View {
                 
                 Button(action: {
                     commentArray.append(commentString)
-//                    commentWrite.append(commentString)
                     commentString = ""
                     print(commentArray)
-                    //globalCommentWrite = commentWrite
                     presentation.wrappedValue.dismiss()
                 }) {
                     Text("작성완료")
