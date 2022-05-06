@@ -7,9 +7,25 @@
 
 import SwiftUI
 
+
+
 struct TestView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        Image("gong")
+//            .onAppear{
+//                for family: String in UIFont.familyNames {
+//                                print(family)
+//                                for names : String in UIFont.fontNames(forFamilyName: family){
+//                                    print("=== \(names)")
+//                                }
+//                            }
+//                
+//            }
+
+        
+        
+        
     }
 }
 

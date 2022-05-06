@@ -26,9 +26,11 @@ struct ListView: View {
                     .fontWeight(.bold)
                     .font(.system(size: 30))
                     .foregroundColor(Color(red: 108 / 255, green: 163 / 255, blue: 133 / 255))
-                    .frame(width:200)
+//                    .frame(width:200)
+                    .offset(x: -90, y: 30)
+
                 
-                List{
+                List{//역순으로올라가게?
                     ForEach(comments, id:\.self) { comment in
                         CardExample(list: comment)
                     }
@@ -58,10 +60,13 @@ struct CardExample: View {
                 .bold()
         }
         .padding()
-        .frame(width: 300, height: 180)
-        .background(Image("texture"))
+        .font(Font.custom("NanumOeHarMeoNiGeurSsi", size: 30))
+        .frame(width: 303, height: 188)
+        .background(Image("paper3"))
         .foregroundColor(.black)
         .cornerRadius(15)
+        .listRowBackground(Color(red: 255 / 255, green: 246 / 255, blue: 238 / 255))
+//        .listStyle(ListStyle)
     }
 }
     
